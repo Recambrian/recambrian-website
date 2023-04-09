@@ -3,12 +3,12 @@
 
   // Define colors using RGB code
   const colors = [
-    [62, 35, 255],
-    [60, 255, 60],
-    [255, 35, 98],
-    [45, 175, 230],
-    [255, 0, 255],
-    [255, 128, 0],
+    [62, 166, 167],
+    [114, 44, 175],
+    [238, 188, 73],
+    [41, 178, 83],
+    [255, 56, 63],
+    [247, 114, 38],
   ]
 
   let step = 0
@@ -76,8 +76,8 @@
 
 <style scoped>
   .background {
-    min-height: 100vh;
-    min-width: 100vw;
+    height: 100vh;
+    width: 100vw;
 
     display: flex;
     flex-direction: column;
@@ -88,7 +88,6 @@
   .img-wrapper {
     animation: grow-shrink 10s ease-in-out infinite;
     transform-origin: 50% 50%;
-    width: 60%;
     height: 60%;
   }
 
@@ -99,6 +98,10 @@
 
   h1 {
     font-size: 36px;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   img {
