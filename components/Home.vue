@@ -66,7 +66,7 @@
 </script>
 
 <template>
-  <div class="background">
+  <div class="background" :style="{ backgroundImage: backgroundColor }">
     <div class="img-wrapper">
       <img src="~/assets/logo.png" />
     </div>
